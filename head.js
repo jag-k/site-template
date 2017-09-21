@@ -1,0 +1,1 @@
+document.write('<div id="header"><a href="index.html"><div class="headimgs"><img src="Image/head.png" class="headimg head1" alt="Image not load(" height="100", width=300></div></a><div class="buttons"><a href="index.html" class="upbut">Home</a><a href="Galarey/index.html" class="upbut">Galarey</a><a href="index.html" class="upbut">Long Big Button</a></div></div>');

@@ -1,0 +1,50 @@
+* {
+    transition: all .356s;
+}
+
+body {
+    font: 1em Arial;
+    background: url(https://subtlepatterns.com/patterns/grid.png);
+    padding-bottom: 1px;
+    margin: auto;
+}
+
+a.link {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.headimgs {
+    background: #0f0;
+    height: 100px
+}
+
+.buttons {
+    background: #a9a9a9;
+    border: 2px dotted rgba(54, 54, 54, 0.5);
+}
+
+.upbut {
+    display: inline-block;
+    padding: 0.6em 0.8em;
+    background: #a9a9a9;
+    margin: 0px;
+    font: 1.35em Arial;
+    position: relative;
+    text-align: center;
+    color: #606060;
+    text-decoration: none;
+    border-right: 2px dotted rgba(54, 54, 54, 0.5);
+}
+
+.upbut:hover {
+    background: #505050;
+    color: #9a9a9a
+}
+
+@media only screen and (max-width: 660px) {
+    .noMob, .headimgs{
+        display: none;
+    }
+}
